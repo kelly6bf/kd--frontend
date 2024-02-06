@@ -10,7 +10,7 @@ export default function Navbar() {
         <VscNotebook />
         <h1>Kelly's Day</h1>
       </Link>
-      <nav className="flex items-center space-x-4 p-2 text-xl font-semibold">
+      <nav className="flex items-center space-x-4 text-xl font-semibold">
         <Link to={"/diaries/new"}>
           <BsPencil/>
         </Link>
